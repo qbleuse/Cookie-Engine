@@ -1,0 +1,66 @@
+#ifndef __PARTICLESEMITER_HPP__
+#define __PARTICLESEMITER_HPP__
+
+#include <vector>
+#include "ParticlesGenerator.hpp"
+#include "ParticlesUpdate.hpp"
+
+namespace Cookie
+{
+	namespace Resources
+	{
+		namespace Particles
+		{
+			class ParticlesGenerator;
+
+			enum COMPONENTADD
+			{
+				PPGEN		= 0b00000000000000000000000001,
+				BPGEN		= 0b00000000000000000000000010,
+				CPGEN		= 0b00000000000000000000000100,
+				SCGEN		= 0b00000000000000000000001000,
+				SRGEN		= 0b00000000000000000000010000,
+				RRGEN		= 0b00000000000000000000100000,
+				VCGEN		= 0b00000000000000000001000000,
+				VRGEN		= 0b00000000000000000010000000,
+				MCGEN		= 0b00000000000000000100000000,
+				TCGEN		= 0b00000000000000001000000000,
+								
+				TRGEN		= 0b00000000000000010000000000,
+				CCGEN		= 0b00000000000000100000000000,
+				CRGEN		= 0b00000000000001000000000000,
+				IVWP		= 0b00000000000010000000000000,
+				UPVEL		= 0b00000000000100000000000000,
+				UPSCALE		= 0b00000000001000000000000000,
+				UPALPHA		= 0b00000000010000000000000000,
+								
+				COL			= 0b00000000100000000000000000,
+				EG			= 0b00000001000000000000000000,
+				UPT			= 0b00000010000000000000000000,
+				LP			= 0b00000100000000000000000000,
+				CWP			= 0b00001000000000000000000000,
+				CP			= 0b00010000000000000000000000,
+				SH			= 0b00100000000000000000000000,
+				SP			= 0b01000000000000000000000000,
+				SA			= 0b10000000000000000000000000,
+			};
+
+
+			class ParticlesEmitter
+			{
+			public:
+				//ParticlesGenerator and ParticlesUpdate are virtuals
+				std::vector<std::shared_ptr<ParticlesGenerator>> generators;
+				std::vector<std::shared_ptr<ParticlesUpdate>>  updates;
+
+				//Use for the UI
+				int componentAdd = 0;
+
+				ParticlesEmitter() {}
+				~ParticlesEmitter() {}
+			};
+		}
+	}
+}
+
+#endif // !__PARTICLESEMITER_HPP__
