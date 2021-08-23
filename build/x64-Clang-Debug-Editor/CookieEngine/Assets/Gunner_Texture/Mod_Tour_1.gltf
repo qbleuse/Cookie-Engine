@@ -1,0 +1,155 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Tour_1"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Tour_Tex",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Tour_1",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_Tours_low_lambert1_Normal",
+            "uri" : "Tours_Texture/Geo_Tours_low_lambert1_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_Tours_low_lambert1_BaseColor",
+            "uri" : "Tours_Texture/Geo_Tours_low_lambert1_BaseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_Tours_low_lambert1_Metallic-Geo_Tours_low_lambert1_Roughness",
+            "uri" : "Tours_Texture/Geo_Tours_low_lambert1_Metallic-Geo_Tours_low_lambert1_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 537,
+            "max" : [
+                3.4566519260406494,
+                6.970191478729248,
+                3.4566519260406494
+            ],
+            "min" : [
+                -3.4566519260406494,
+                -6.970191955566406,
+                -3.4566519260406494
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 537,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 537,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 2544,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 6444,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6444,
+            "byteOffset" : 6444
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4296,
+            "byteOffset" : 12888
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5088,
+            "byteOffset" : 17184
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 22272,
+            "uri" : "Mod_Tour_1.bin"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "Colliders": "nullptr",
+    "Gameplay": {
+        "CGPAttack": {
+            "AttackCooldown": 0.0,
+            "AttackDamage": 1.0,
+            "AttackRange": 10.0,
+            "AttackSpeed": 5.0,
+            "NeedToAttack": false
+        },
+        "CGPLive": {
+            "Armor": 1.0,
+            "Life": 1100.0,
+            "LifeMax": 1100.0,
+            "PosLife": [
+                0.0,
+                3.0,
+                0.0
+            ]
+        },
+        "CGPMove": {
+            "MoveSpeed": 5.0,
+            "isFlying": false
+        },
+        "CGPProducer": {
+            "SupplyGiven": 0,
+            "TileSize": [
+                5.0,
+                5.0
+            ],
+            "name": [
+                "Catapulte"
+            ]
+        },
+        "CGPWorker": null,
+        "Cost": {
+            "CostPrimary": 150.0,
+            "CostSecondary": 50.0,
+            "CostSupply": 0.0,
+            "TimeToProduce": 11.0
+        },
+        "SignatureGameplay": 9,
+        "TeamName": 0,
+        "Type": 3
+    },
+    "Model": {
+        "Mesh": "Assets/Mod_Tier2.gltf - Tier2",
+        "Texture": {
+            "albedo": "Assets/Tier2_Catapulte_Texture/Geo_producerTier2_low_lambert1_BaseColor.png",
+            "icon": "Assets/UI/IconCaserne_2.tif",
+            "metallic": "Assets/Tier2_Catapulte_Texture/Geo_producerTier2_low_lambert1_Metallic-Geo_producerTier2_low_lambert1_Roughness.png",
+            "normal": "Assets/Tier2_Catapulte_Texture/Geo_producerTier2_low_lambert1_Normal.png"
+        }
+    },
+    "Name": "Factory",
+    "Rigidbody": "nullptr",
+    "Signature": 19,
+    "Transform": {
+        "Rotation": [
+            -0.0,
+            179.9916229248047,
+            0.0
+        ],
+        "Scale": [
+            5.0,
+            5.0,
+            5.0
+        ]
+    }
+}

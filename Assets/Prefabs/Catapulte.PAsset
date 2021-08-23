@@ -1,0 +1,79 @@
+{
+    "Colliders": "nullptr",
+    "FX": {
+        "CGPAttack": {
+            "sfxAttack": "NONE",
+            "vfxAttack": "Attack_Catapulte"
+        },
+        "CGPLive": {
+            "sfxDeath": "Death.mp3",
+            "sfxHit": "NONE",
+            "vfxDeath": "Death_All",
+            "vfxHit": "Hit_All"
+        }
+    },
+    "Gameplay": {
+        "CGPAttack": {
+            "AttackCooldown": 0.0,
+            "AttackDamage": 35.0,
+            "AttackRange": 10.0,
+            "AttackSpeed": 3.0,
+            "NeedToAttack": false
+        },
+        "CGPLive": {
+            "Armor": 2.0,
+            "Life": 150.0,
+            "LifeMax": 150.0,
+            "PosLife": [
+                0.0,
+                3.0,
+                0.0
+            ]
+        },
+        "CGPMove": {
+            "MoveSpeed": 3.0,
+            "isFlying": false
+        },
+        "CGPProducer": {
+            "SupplyGiven": 0,
+            "TileSize": [
+                0.0,
+                0.0
+            ]
+        },
+        "CGPWorker": null,
+        "Cost": {
+            "CostPrimary": 150.0,
+            "CostSecondary": 50.0,
+            "CostSupply": 2.0,
+            "TimeToProduce": 6.0
+        },
+        "SignatureGameplay": 7,
+        "TeamName": 0,
+        "Type": 2
+    },
+    "Model": {
+        "Mesh": "Assets/Mod_Catapulte.gltf - Catapulte",
+        "Texture": {
+            "albedo": "Assets/Tier2_Catapulte_Texture/Geo_producerTier2_low_lambert1_BaseColor.png",
+            "icon": "Assets/UI/IconCatapulte.tif",
+            "metallic": "Assets/Tier2_Catapulte_Texture/Geo_producerTier2_low_lambert1_Metallic-Geo_producerTier2_low_lambert1_Roughness.png",
+            "normal": "Assets/Tier2_Catapulte_Texture/Geo_producerTier2_low_lambert1_Normal.png"
+        }
+    },
+    "Name": "Catapulte",
+    "Rigidbody": "nullptr",
+    "Signature": 51,
+    "Transform": {
+        "Rotation": [
+            -0.0,
+            179.9755859375,
+            0.0
+        ],
+        "Scale": [
+            2.0,
+            2.0,
+            2.0
+        ]
+    }
+}

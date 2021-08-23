@@ -273,8 +273,8 @@ void Coordinator::ApplyRemoveUnnecessaryEntities()
 
 			if (life.lifeCurrent <= 0)
 			{
-				if (life.sfxDeath)
-					SoundManager::PlayMusic3D(life.sfxDeath, life.trs->pos);
+				//if (life.sfxDeath)
+				//	SoundManager::PlayMusic3D(life.sfxDeath, life.trs->pos);
 				if (life.vfxDeath)
 				{
 					Vec3 vfxPos = life.trs->pos;

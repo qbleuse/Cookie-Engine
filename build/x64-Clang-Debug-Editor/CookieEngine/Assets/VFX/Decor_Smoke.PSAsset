@@ -1,0 +1,73 @@
+{
+    "Data": [
+        {
+            "CountAlive": 50,
+            "CountFrame": 50,
+            "IsBillBoard": true,
+            "Mesh": "Quad",
+            "Size": 51,
+            "Texture": "Assets/VFX/Smoke.png"
+        }
+    ],
+    "Emitter": [
+        {
+            "Generators": [
+                {
+                    "Type": 1,
+		    "sizeBox": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "pos": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "Type": 10,
+                    "timeMax": 1,
+                    "timeMin": 0.5
+                },
+                {
+                    "Type": 3,
+                    "scale": [
+                        0.7,
+                        0.7,
+                        0.7
+                    ]
+                },
+                {
+                    "Type": 7,
+                    "velMax": [
+                        0,
+                        3.0,
+                        0
+                    ],
+                    "velMin": [
+                        0,
+                        1.0,
+                        0
+                    ]
+                }
+            ],
+            "Updates": [
+                {
+                    "Type": 5
+                },
+                {
+                    "Type": 0
+                },
+                {
+                    "Type": 6
+                },
+                {
+                    "Type": 2,
+                    "alphaEnd": 0.0
+                }
+            ]
+        }
+    ],
+    "Name": "Decor_Smoke"
+}

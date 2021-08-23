@@ -1,0 +1,81 @@
+{
+    "Data": [
+        {
+            "CountAlive": 5,
+            "CountFrame": 5,
+            "IsBillBoard": true,
+            "Mesh": "Quad",
+            "Size": 5,
+            "Texture": "Assets/VFX/SplashChoco.png"
+        },
+        {
+            "CountAlive": 0,
+            "CountFrame": 800,
+            "IsBillBoard": true,
+            "Mesh": "Quad",
+            "Size": 800,
+            "Texture": "Assets/VFX/Smoke.png"
+        }
+    ],
+    "Emitter": [
+        {
+            "Generators": [
+                {
+                    "Type": 0,
+                    "pos": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "Type": 13
+                },
+                {
+                    "Type": 10,
+                    "timeMax": 1.0,
+                    "timeMin": 0.75
+                },
+                {
+                    "Type": 3,
+                    "scale": [
+                        0.45,
+                        0.45,
+                        0.45
+                    ]
+                }
+            ],
+            "Updates": [
+                {
+                    "Type": 0
+                },
+                {
+                    "Type": 5
+                },
+                {
+                    "Type": 8,
+                    "index": 1,
+	  	    "coeffScale": 1,
+		    "coeffPos": 3,
+		    "time": 0.45
+                },
+                {
+                    "Type": 11
+                }
+            ]
+        },
+        {
+            "Generators": 0,
+            "Updates": [
+                {
+                    "Type": 5
+                },
+                {
+                    "Type": 2,
+                    "alphaEnd": 0.0
+                }
+            ]
+        }
+    ],
+    "Name": "Attack_Gunner"
+}

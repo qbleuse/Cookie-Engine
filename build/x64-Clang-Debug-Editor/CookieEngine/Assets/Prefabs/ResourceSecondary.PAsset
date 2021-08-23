@@ -1,0 +1,67 @@
+{
+    "Colliders": "nullptr",
+    "Gameplay": {
+        "CGPAttack": {
+            "AttackCooldown": 0.0,
+            "AttackDamage": 1.0,
+            "AttackRange": 10.0,
+            "AttackSpeed": 5.0,
+            "NeedToAttack": false
+        },
+        "CGPLive": {
+            "Armor": 0.0,
+            "Life": 10.0,
+            "LifeMax": 10.0,
+            "PosLife": [
+                0.0,
+                3.0,
+                0.0
+            ]
+        },
+        "CGPMove": {
+            "MoveSpeed": 1000.0,
+            "isFlying": false
+        },
+        "CGPProducer": {
+            "SupplyGiven": 0,
+            "TileSize": [
+                0.0,
+                0.0
+            ]
+        },
+        "CGPWorker": null,
+        "Cost": {
+            "CostPrimary": 0.0,
+            "CostSecondary": 0.0,
+            "CostSupply": 0.0,
+            "TimeToProduce": 0.0
+        },
+        "SignatureGameplay": 32,
+        "TeamName": 0,
+        "Type": 0
+    },
+    "Model": {
+        "Mesh": "Assets/Mod_DomeChoco.gltf - DomeChoco",
+        "Texture": {
+            "albedo": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_BaseColor.png",
+            "icon": "Assets/UI/IconDomeChoco.tif",
+            "metallic": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_Metallic-Mod_Dome_low_lambert1_Roughness.png",
+            "normal": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_Normal.png"
+        }
+    },
+    "Name": "ResourceSecondary",
+    "Rigidbody": "nullptr",
+    "Signature": 19,
+    "Transform": {
+        "Rotation": [
+            -0.0,
+            180.0,
+            0.0
+        ],
+        "Scale": [
+            1.0,
+            1.0,
+            1.0
+        ]
+    }
+}

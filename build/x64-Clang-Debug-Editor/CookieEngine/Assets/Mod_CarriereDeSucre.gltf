@@ -1,0 +1,155 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Carri\u00e8re"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Carriere_Tex",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Carriere",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_carriere_lambert3_Normal",
+            "uri" : "CarriereDeSucre_Texture/Geo_carriere_lambert3_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_carriere_lambert3_BaseColor",
+            "uri" : "CarriereDeSucre_Texture/Geo_carriere_lambert3_BaseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_carriere_lambert3_Metallic-Geo_carriere_lambert3_Roughness",
+            "uri" : "CarriereDeSucre_Texture/Geo_carriere_lambert3_Metallic-Geo_carriere_lambert3_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 55,
+            "max" : [
+                7.332705020904541,
+                1.4676637649536133,
+                7.332705497741699
+            ],
+            "min" : [
+                -7.332705020904541,
+                -1.4676631689071655,
+                -7.332704544067383
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 55,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 55,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 150,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 660,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 660,
+            "byteOffset" : 660
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 440,
+            "byteOffset" : 1320
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 300,
+            "byteOffset" : 1760
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2060,
+            "uri" : "Mod_CarriereDeSucre.bin"
+        }
+    ]
+}

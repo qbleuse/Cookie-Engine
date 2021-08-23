@@ -1,0 +1,164 @@
+{
+    "Data": [
+        {
+            "CountAlive": 1,
+            "CountFrame": 1,
+            "IsBillBoard": false,
+            "Mesh": "Quad",
+            "Size": 2,
+            "Texture": "Assets/VFX/Flaque.png"
+        },
+        {
+            "CountAlive": 5,
+            "CountFrame": 5,
+            "IsBillBoard": true,
+            "Mesh": "Quad",
+            "Size": 5,
+            "Texture": "Assets/VFX/SplashChoco.png"
+        },
+        {
+            "CountAlive": 0,
+            "CountFrame": 800,
+            "IsBillBoard": true,
+            "Mesh": "Quad",
+            "Size": 800,
+            "Texture": "Assets/VFX/Smoke.png"
+        }
+    ],
+    "Emitter": [
+        {
+            "Generators": [
+                {
+                    "Type": 10,
+                    "timeMax": 2.25,
+                    "timeMin": 1.25
+                },
+                {
+                    "Type": 5,
+                    "rotMax": [
+                        1.570796012878418,
+                        0.0,
+                        3.141592025756836
+                    ],
+                    "rotMin": [
+                        1.570796012878418,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "Type": 0,
+                    "pos": [
+                        0.0,
+                        0.3,
+                        0.0
+                    ]
+                }
+            ],
+            "Updates": [
+                {
+                    "Type": 5
+                },
+                {
+                    "Type": 2,
+                    "alphaEnd": 0.0
+                },
+                {
+                    "Type": 1,
+                    "scaleEnd": [
+                        3.0,
+                        3.0,
+                        3.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Generators": [
+                {
+                    "Type": 0,
+                    "pos": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "Type": 7,
+                    "velMax": [
+                        2.0,
+                        7.0,
+                        2.0
+                    ],
+                    "velMin": [
+                        -2.0,
+                        5.0,
+                        -2.0
+                    ]
+                },
+                {
+                    "Type": 8,
+                    "mass": 1.0
+                },
+                {
+                    "Type": 10,
+                    "timeMax": 2.25,
+                    "timeMin": 1.0
+                },
+                {
+                    "Type": 4,
+                    "scaleMax": [
+                        0.3499999940395355,
+                        0.3499999940395355,
+                        0.3499999940395355
+                    ],
+                    "scaleMin": [
+                        0.15000000596046448,
+                        0.15000000596046448,
+                        0.15000000596046448
+                    ]
+                }
+            ],
+            "Updates": [
+                {
+                    "Type": 4,
+                    "gravity": -9.8100004196167
+                },
+                {
+                    "Type": 0
+                },
+                {
+                    "Type": 5
+                },
+                {
+                    "Type": 1,
+                    "scaleEnd": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "Type": 8,
+                    "index": 2,
+	  	    "coeffScale": 1,
+		    "coeffPos": 3,
+		    "time": 0.45
+                }
+            ]
+        },
+        {
+            "Generators": 0,
+            "Updates": [
+                {
+                    "Type": 5
+                },
+                {
+                    "Type": 2,
+                    "alphaEnd": 0.0
+                }
+            ]
+        }
+    ],
+    "Name": "Death_All"
+}

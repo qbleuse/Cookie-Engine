@@ -1,0 +1,70 @@
+{
+    "Colliders": "nullptr",
+    "Gameplay": {
+        "CGPAttack": {
+            "AttackCooldown": 0.0,
+            "AttackDamage": 1.0,
+            "AttackRange": 10.0,
+            "AttackSpeed": 5.0,
+            "NeedToAttack": false
+        },
+        "CGPLive": {
+            "Armor": 1.0,
+            "Life": 1200.0,
+            "LifeMax": 1200.0,
+            "PosLife": [
+                0.0,
+                3.0,
+                0.0
+            ]
+        },
+        "CGPMove": {
+            "MoveSpeed": 5.0,
+            "isFlying": false
+        },
+        "CGPProducer": {
+            "SupplyGiven": 0,
+            "TileSize": [
+                5.0,
+                5.0
+            ],
+            "name": [
+                "Plane"
+            ]
+        },
+        "CGPWorker": null,
+        "Cost": {
+            "CostPrimary": 150.0,
+            "CostSecondary": 100.0,
+            "CostSupply": 0.0,
+            "TimeToProduce": 12.0
+        },
+        "SignatureGameplay": 9,
+        "TeamName": 0,
+        "Type": 3
+    },
+    "Model": {
+        "Mesh": "Assets/Mod_Tier3.gltf - Tier3",
+        "Texture": {
+            "albedo": "Assets/Tier3_Texture/Geo_Tier3_low_lambert1_BaseColor.png",
+            "icon": "Assets/UI/IconCaserne_3.tif",
+            "metallic": "Assets/Tier3_Texture/Geo_Tier3_low_lambert1_Metallic-Geo_Tier3_low_lambert1_Roughness.png",
+            "normal": "Assets/Tier1_Texture/Geo_ProducerTier1_low_lambert2_Normal.png"
+        }
+    },
+    "Name": "Airport",
+    "Rigidbody": "nullptr",
+    "Signature": 19,
+    "Transform": {
+        "Rotation": [
+            -0.0,
+            179.9917755126953,
+            0.0
+        ],
+        "Scale": [
+            5.0,
+            5.0,
+            5.0
+        ]
+    }
+}

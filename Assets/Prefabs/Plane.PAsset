@@ -1,0 +1,79 @@
+{
+    "Colliders": "nullptr",
+    "FX": {
+        "CGPAttack": {
+            "sfxAttack": "NONE",
+            "vfxAttack": "Attack_Plane"
+        },
+        "CGPLive": {
+            "sfxDeath": "Death.mp3",
+            "sfxHit": "NONE",
+            "vfxDeath": "Death_Plane",
+            "vfxHit": "Hit_All"
+        }
+    },
+    "Gameplay": {
+        "CGPAttack": {
+            "AttackCooldown": 0.0,
+            "AttackDamage": 30.0,
+            "AttackRange": 0.2,
+            "AttackSpeed": 1.5,
+            "NeedToAttack": false
+        },
+        "CGPLive": {
+            "Armor": 0.0,
+            "Life": 150.0,
+            "LifeMax": 150.0,
+            "PosLife": [
+                0.0,
+                3.0,
+                0.0
+            ]
+        },
+        "CGPMove": {
+            "MoveSpeed": 5.0,
+            "isFlying": true
+        },
+        "CGPProducer": {
+            "SupplyGiven": 0,
+            "TileSize": [
+                0.0,
+                0.0
+            ]
+        },
+        "CGPWorker": null,
+        "Cost": {
+            "CostPrimary": 150.0,
+            "CostSecondary": 100.0,
+            "CostSupply": 2.0,
+            "TimeToProduce": 8.0
+        },
+        "SignatureGameplay": 7,
+        "TeamName": 0,
+        "Type": 2
+    },
+    "Model": {
+        "Mesh": "Assets/Mod_Plane.gltf - Mesh.009",
+        "Texture": {
+            "albedo": "Assets/Tier3_Texture/Geo_Tier3_low_lambert1_BaseColor.png",
+            "icon": "Assets/UI/IconPlane.tif",
+            "metallic": "Assets/Tier3_Texture/Geo_Tier3_low_lambert1_Metallic-Geo_Tier3_low_lambert1_Roughness.png",
+            "normal": "Assets/Tier3_Texture/Geo_Tier3_low_lambert1_Normal.png"
+        }
+    },
+    "Name": "Plane",
+    "Rigidbody": "nullptr",
+    "Signature": 51,
+    "Transform": {
+        "Rotation": [
+            -0.0,
+            179.97850036621094,
+            0.0
+        ],
+        "Scale": [
+            1.9999926090240479,
+            2.0,
+            1.9999926090240479
+        ]
+    }
+}

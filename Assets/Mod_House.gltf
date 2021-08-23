@@ -1,0 +1,158 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "House"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "House_Tex.001",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_House_low_lambert1_Normal",
+            "uri" : "House_Texture/Geo_House_low_lambert1_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_House_low_lambert1_BaseColor",
+            "uri" : "House_Texture/Geo_House_low_lambert1_BaseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_House_low_lambert1_Metallic-Geo_House_low_lambert1_Roughness",
+            "uri" : "House_Texture/Geo_House_low_lambert1_Metallic-Geo_House_low_lambert1_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1243,
+            "max" : [
+                3.4177799224853516,
+                3.4177799224853516,
+                3.4177799224853516
+            ],
+            "min" : [
+                -3.4177799224853516,
+                -3.4177799224853516,
+                -3.4177799224853516
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1243,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1243,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 5964,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 14916,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14916,
+            "byteOffset" : 14916
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9944,
+            "byteOffset" : 29832
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11928,
+            "byteOffset" : 39776
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 51704,
+            "uri" : "Mod_House.bin"
+        }
+    ]
+}

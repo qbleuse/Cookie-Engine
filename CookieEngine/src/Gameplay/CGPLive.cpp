@@ -11,8 +11,8 @@ using namespace Cookie::Resources::Particles;
 
 void CGPLive::TakeHit(const float damage)
 {
-	if(sfxHit)
-		SoundManager::PlayMusic3D(sfxHit, trs->pos);
+	//if(sfxHit)
+	//	SoundManager::PlayMusic3D(sfxHit, trs->pos);
 	if(vfxHit)
 		ParticlesHandler::CreateParticlesWithPrefab(trs->pos, vfxHit);
 

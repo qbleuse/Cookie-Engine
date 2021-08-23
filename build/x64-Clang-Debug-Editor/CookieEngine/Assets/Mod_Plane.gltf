@@ -1,0 +1,158 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Plane"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Tier3_Tex.001",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.009",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_Tier3_low_lambert1_Normal",
+            "uri" : "Tier3_Texture/Geo_Tier3_low_lambert1_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_Tier3_low_lambert1_BaseColor",
+            "uri" : "Tier3_Texture/Geo_Tier3_low_lambert1_BaseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_Tier3_low_lambert1_Metallic-Geo_Tier3_low_lambert1_Roughness",
+            "uri" : "Tier3_Texture/Geo_Tier3_low_lambert1_Metallic-Geo_Tier3_low_lambert1_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 525,
+            "max" : [
+                1.99124276638031,
+                0.18609945476055145,
+                2.680840253829956
+            ],
+            "min" : [
+                -1.9912426471710205,
+                -0.17561118304729462,
+                -2.678412914276123
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 525,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 525,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 2076,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 6300,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6300,
+            "byteOffset" : 6300
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4200,
+            "byteOffset" : 12600
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4152,
+            "byteOffset" : 16800
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 20952,
+            "uri" : "Mod_Plane.bin"
+        }
+    ]
+}

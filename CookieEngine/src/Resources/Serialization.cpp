@@ -128,20 +128,20 @@ void Cookie::Resources::Serialization::Save::ToJson(json& js, const Cookie::ECS:
 			int index = js["FX"].size();
 			json& fx = js["FX"][index];
 			ComponentGameplay& gameplay = component.GetComponentGameplay(entity.entities[i].id);
-			if (gameplay.signatureGameplay & CGP_SIGNATURE::ATTACK)
-			{
-				fx["CGPAttack"]["sfxAttack"] = gameplay.componentAttack.sfxAttack ? gameplay.componentAttack.sfxAttack->name : "NONE";
-				fx["CGPAttack"]["vfxAttack"] = gameplay.componentAttack.vfxAttack ? gameplay.componentAttack.vfxAttack->name : "NONE";
-
-			}
-			if (gameplay.signatureGameplay & CGP_SIGNATURE::LIVE)
-			{
-				fx["CGPLive"]["sfxDeath"] = gameplay.componentLive.sfxDeath ? gameplay.componentLive.sfxDeath->name : "NONE";
-				fx["CGPLive"]["vfxDeath"] = gameplay.componentLive.vfxDeath ? gameplay.componentLive.vfxDeath->name : "NONE";
-
-				fx["CGPLive"]["sfxHit"] = gameplay.componentLive.sfxHit ? gameplay.componentLive.sfxHit->name : "NONE";
-				fx["CGPLive"]["vfxHit"] = gameplay.componentLive.vfxHit ? gameplay.componentLive.vfxHit->name : "NONE";
-			}
+			//if (gameplay.signatureGameplay & CGP_SIGNATURE::ATTACK)
+			//{
+			//	fx["CGPAttack"]["sfxAttack"] = gameplay.componentAttack.sfxAttack ? gameplay.componentAttack.sfxAttack->name : "NONE";
+			//	fx["CGPAttack"]["vfxAttack"] = gameplay.componentAttack.vfxAttack ? gameplay.componentAttack.vfxAttack->name : "NONE";
+			//
+			//}
+			//if (gameplay.signatureGameplay & CGP_SIGNATURE::LIVE)
+			//{
+			//	fx["CGPLive"]["sfxDeath"] = gameplay.componentLive.sfxDeath ? gameplay.componentLive.sfxDeath->name : "NONE";
+			//	fx["CGPLive"]["vfxDeath"] = gameplay.componentLive.vfxDeath ? gameplay.componentLive.vfxDeath->name : "NONE";
+			//
+			//	fx["CGPLive"]["sfxHit"] = gameplay.componentLive.sfxHit ? gameplay.componentLive.sfxHit->name : "NONE";
+			//	fx["CGPLive"]["vfxHit"] = gameplay.componentLive.vfxHit ? gameplay.componentLive.vfxHit->name : "NONE";
+			//}
 		}
 	}
 }
@@ -451,19 +451,19 @@ void Cookie::Resources::Serialization::Save::SavePrefab(const Prefab* const & pr
 	 {
 		 json& fx = js["FX"];
 		 const ComponentGameplay& gameplay = prefab->gameplay;
-		 if (gameplay.signatureGameplay & CGP_SIGNATURE::ATTACK)
-		 {
-			 fx["CGPAttack"]["sfxAttack"] = gameplay.componentAttack.sfxAttack ? gameplay.componentAttack.sfxAttack->name : "NONE";
-			 fx["CGPAttack"]["vfxAttack"] = gameplay.componentAttack.vfxAttack ? gameplay.componentAttack.vfxAttack->name : "NONE";
-		 }
-		 if (gameplay.signatureGameplay & CGP_SIGNATURE::LIVE)
-		 {
-			 fx["CGPLive"]["sfxDeath"] = gameplay.componentLive.sfxDeath ? gameplay.componentLive.sfxDeath->name : "NONE";
-			 fx["CGPLive"]["vfxDeath"] = gameplay.componentLive.vfxDeath ? gameplay.componentLive.vfxDeath->name : "NONE";
-
-			 fx["CGPLive"]["sfxHit"] = gameplay.componentLive.sfxHit ? gameplay.componentLive.sfxHit->name : "NONE";
-			 fx["CGPLive"]["vfxHit"] = gameplay.componentLive.vfxHit ? gameplay.componentLive.vfxHit->name : "NONE";
-		 }
+		 //if (gameplay.signatureGameplay & CGP_SIGNATURE::ATTACK)
+		 //{
+		//	 fx["CGPAttack"]["sfxAttack"] = gameplay.componentAttack.sfxAttack ? gameplay.componentAttack.sfxAttack->name : "NONE";
+		//	 fx["CGPAttack"]["vfxAttack"] = gameplay.componentAttack.vfxAttack ? gameplay.componentAttack.vfxAttack->name : "NONE";
+		 //}
+		 //if (gameplay.signatureGameplay & CGP_SIGNATURE::LIVE)
+		 //{
+		//	 fx["CGPLive"]["sfxDeath"] = gameplay.componentLive.sfxDeath ? gameplay.componentLive.sfxDeath->name : "NONE";
+		//	 fx["CGPLive"]["vfxDeath"] = gameplay.componentLive.vfxDeath ? gameplay.componentLive.vfxDeath->name : "NONE";
+		 //
+		//	 fx["CGPLive"]["sfxHit"] = gameplay.componentLive.sfxHit ? gameplay.componentLive.sfxHit->name : "NONE";
+		//	 fx["CGPLive"]["vfxHit"] = gameplay.componentLive.vfxHit ? gameplay.componentLive.vfxHit->name : "NONE";
+		 //}
 	 }
 
 	 file << std::setw(4) << js << std::endl;
@@ -548,21 +548,21 @@ void Cookie::Resources::Serialization::Save::SavePhysic(json& js, Cookie::ECS::C
 
 void Cookie::Resources::Serialization::Save::SaveVolumAndModeMusic(Sound* const & sound)
 {
-	std::string filepath = sound->filepath;
+	//std::string filepath = sound->filepath;
 
-	std::size_t pos = filepath.find(".mp3");
-	std::size_t end = filepath.length();
-
-	filepath.replace(pos, end, ".MAsset");
-
-	std::ofstream file(filepath);
-
-	json js;
-
-	js["Volume"] = sound->vol;
-	js["Mode"] = sound->mode;
-
-	file << std::setw(4) << js << std::endl;
+	//std::size_t pos = filepath.find(".mp3");
+	//std::size_t end = filepath.length();
+	//
+	//filepath.replace(pos, end, ".MAsset");
+	//
+	//std::ofstream file(filepath);
+	//
+	//json js;
+	//
+	//js["Volume"] = sound->vol;
+	//js["Mode"] = sound->mode;
+	//
+	//file << std::setw(4) << js << std::endl;
 }
 
 void Cookie::Resources::Serialization::Save::SaveParticles(Cookie::Resources::Particles::ParticlesPrefab& particles)
@@ -910,8 +910,8 @@ void Cookie::Resources::Serialization::Load::FromJson(json& js, const Cookie::EC
 			 {
 				 Gameplay::CGPAttack& game = component.GetComponentGameplay(entity.entities[i].id).componentAttack;
 				 std::string name = fx["CGPAttack"]["sfxAttack"].get<std::string>();
-				 if (resourcesManager.sounds.find(name) != resourcesManager.sounds.end())
-					 game.sfxAttack = resourcesManager.sounds[name].get();
+				// if (resourcesManager.sounds.find(name) != resourcesManager.sounds.end())
+				//	 game.sfxAttack = resourcesManager.sounds[name].get();
 				 name = fx["CGPAttack"]["vfxAttack"].get<std::string>();
 				 if (resourcesManager.particles.find(name) != resourcesManager.particles.end())
 					 game.vfxAttack = resourcesManager.particles[name].get();
@@ -921,15 +921,15 @@ void Cookie::Resources::Serialization::Load::FromJson(json& js, const Cookie::EC
 			 {
 				 Gameplay::CGPLive& game = component.GetComponentGameplay(entity.entities[i].id).componentLive;
 				 std::string name = fx["CGPLive"]["sfxDeath"].get<std::string>();
-				 if (resourcesManager.sounds.find(name) != resourcesManager.sounds.end())
-					 game.sfxDeath = resourcesManager.sounds[name].get();
+				// if (resourcesManager.sounds.find(name) != resourcesManager.sounds.end())
+				//	 game.sfxDeath = resourcesManager.sounds[name].get();
 				 name = fx["CGPLive"]["vfxDeath"].get<std::string>();
 				 if (resourcesManager.particles.find(name) != resourcesManager.particles.end())
 					 game.vfxDeath = resourcesManager.particles[name].get();
 
 				 name = fx["CGPLive"]["sfxHit"].get<std::string>();
-				 if (resourcesManager.sounds.find(name) != resourcesManager.sounds.end())
-					 game.sfxHit = resourcesManager.sounds[name].get();
+				// if (resourcesManager.sounds.find(name) != resourcesManager.sounds.end())
+				//	 game.sfxHit = resourcesManager.sounds[name].get();
 				 name = fx["CGPLive"]["vfxHit"].get<std::string>();
 				 if (resourcesManager.particles.find(name) != resourcesManager.particles.end())
 					 game.vfxHit = resourcesManager.particles[name].get();
@@ -1276,8 +1276,8 @@ void Cookie::Resources::Serialization::Load::LoadAllPrefabs(Cookie::Resources::R
 			 {
 				 Gameplay::CGPAttack& game = newPrefab.gameplay.componentAttack;
 				 std::string name = fx["CGPAttack"]["sfxAttack"].get<std::string>();
-				 if (resourcesManager.sounds.find(name) != resourcesManager.sounds.end())
-					 game.sfxAttack = resourcesManager.sounds[name].get();
+				//if (resourcesManager.sounds.find(name) != resourcesManager.sounds.end())
+				//	 game.sfxAttack = resourcesManager.sounds[name].get();
 				 name = fx["CGPAttack"]["vfxAttack"].get<std::string>();
 				 if (resourcesManager.particles.find(name) != resourcesManager.particles.end())
 					 game.vfxAttack = resourcesManager.particles[name].get();
@@ -1287,15 +1287,15 @@ void Cookie::Resources::Serialization::Load::LoadAllPrefabs(Cookie::Resources::R
 			 {
 				 Gameplay::CGPLive& game = newPrefab.gameplay.componentLive;
 				 std::string name = fx["CGPLive"]["sfxDeath"].get<std::string>();
-				 if (resourcesManager.sounds.find(name) != resourcesManager.sounds.end())
-					 game.sfxDeath = resourcesManager.sounds[name].get();
+				//if (resourcesManager.sounds.find(name) != resourcesManager.sounds.end())
+				//	 game.sfxDeath = resourcesManager.sounds[name].get();
 				 name = fx["CGPLive"]["vfxDeath"].get<std::string>();
 				 if (resourcesManager.particles.find(name) != resourcesManager.particles.end())
 					 game.vfxDeath = resourcesManager.particles[name].get();
 
 				 name = fx["CGPLive"]["sfxHit"].get<std::string>();
-				 if (resourcesManager.sounds.find(name) != resourcesManager.sounds.end())
-					 game.sfxHit = resourcesManager.sounds[name].get();
+				//if (resourcesManager.sounds.find(name) != resourcesManager.sounds.end())
+				//	 game.sfxHit = resourcesManager.sounds[name].get();
 				 name = fx["CGPLive"]["vfxHit"].get<std::string>();
 				 if (resourcesManager.particles.find(name) != resourcesManager.particles.end())
 					 game.vfxHit = resourcesManager.particles[name].get();
@@ -1609,9 +1609,9 @@ void Cookie::Resources::Serialization::Load::LoadVolumAndModeMusic(std::string p
 	json js;
 	file >> js;
 
-	Cookie::Resources::SoundManager::SetVolume(sound, js["Volume"].get<float>());
-
-	Cookie::Resources::SoundManager::SetMode(sound, js["Mode"].get<int>());
+	//Cookie::Resources::SoundManager::SetVolume(sound, js["Volume"].get<float>());
+	//
+	//Cookie::Resources::SoundManager::SetMode(sound, js["Mode"].get<int>());
 }
 
 void Cookie::Resources::Serialization::Load::LoadAllParticles(Cookie::Resources::ResourcesManager& resourcesManager)

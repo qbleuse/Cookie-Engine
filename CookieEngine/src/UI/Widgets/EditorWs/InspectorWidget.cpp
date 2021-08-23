@@ -697,14 +697,14 @@ void Inspector::FXInterface()
             //Death
             {
                 Text("On Death :");
-                if (BeginCombo("##DEATH_SFX", (life.sfxDeath) ? life.sfxDeath->filepath.c_str() : "SFX missing"))
-                {
-                    for (std::unordered_map<std::string, std::unique_ptr<Sound>>::iterator soundPtr = resources.sounds.begin(); soundPtr != resources.sounds.end(); ++soundPtr)
-                        if (Selectable(soundPtr->first.c_str()))
-                            life.sfxDeath = soundPtr->second.get();
-
-                    EndCombo();
-                }
+                //if (BeginCombo("##DEATH_SFX", (life.sfxDeath) ? life.sfxDeath->filepath.c_str() : "SFX missing"))
+                //{
+                //    for (std::unordered_map<std::string, std::unique_ptr<Sound>>::iterator soundPtr = resources.sounds.begin(); soundPtr != resources.sounds.end(); ++soundPtr)
+                //        if (Selectable(soundPtr->first.c_str()))
+                //            life.sfxDeath = soundPtr->second.get();
+                //
+                //    EndCombo();
+                //}
                 if (BeginCombo("##DEATH_VFX", (life.vfxDeath) ? life.vfxDeath->name.c_str() : "VFX missing"))
                 {
                     for (std::unordered_map<std::string, std::unique_ptr<Particles::ParticlesPrefab>>::iterator particlePtr = resources.particles.begin(); particlePtr != resources.particles.end(); ++particlePtr)
@@ -718,14 +718,14 @@ void Inspector::FXInterface()
             //Hit
             {
                 Text("On Hit :");
-                if (BeginCombo("##HIT_SFX", (life.sfxHit) ? life.sfxHit->filepath.c_str() : "SFX missing"))
-                {
-                    for (std::unordered_map<std::string, std::unique_ptr<Sound>>::iterator soundPtr = resources.sounds.begin(); soundPtr != resources.sounds.end(); ++soundPtr)
-                        if (Selectable(soundPtr->first.c_str()))
-                            life.sfxHit = soundPtr->second.get();
-
-                    EndCombo();
-                }
+                //if (BeginCombo("##HIT_SFX", (life.sfxHit) ? life.sfxHit->filepath.c_str() : "SFX missing"))
+                //{
+                //    for (std::unordered_map<std::string, std::unique_ptr<Sound>>::iterator soundPtr = resources.sounds.begin(); soundPtr != resources.sounds.end(); ++soundPtr)
+                //        if (Selectable(soundPtr->first.c_str()))
+                //            life.sfxHit = soundPtr->second.get();
+                //
+                //    EndCombo();
+                //}
                 if (BeginCombo("##HIT_VFX", (life.vfxHit) ? life.vfxHit->name.c_str() : "VFX missing"))
                 {
                     for (std::unordered_map<std::string, std::unique_ptr<Particles::ParticlesPrefab>>::iterator particlePtr = resources.particles.begin(); particlePtr != resources.particles.end(); ++particlePtr)
@@ -748,14 +748,14 @@ void Inspector::FXInterface()
             //Attack
             {
                 Text("On Attack :");
-                if (BeginCombo("##ATTACK_SFX", (attack.sfxAttack) ? attack.sfxAttack->filepath.c_str() : "SFX missing"))
-                {
-                    for (std::unordered_map<std::string, std::unique_ptr<Sound>>::iterator soundPtr = resources.sounds.begin(); soundPtr != resources.sounds.end(); ++soundPtr)
-                        if (Selectable(soundPtr->first.c_str()))
-                            attack.sfxAttack = soundPtr->second.get();
-
-                    EndCombo();
-                }
+                //if (BeginCombo("##ATTACK_SFX", (attack.sfxAttack) ? attack.sfxAttack->filepath.c_str() : "SFX missing"))
+                //{
+                //    for (std::unordered_map<std::string, std::unique_ptr<Sound>>::iterator soundPtr = resources.sounds.begin(); soundPtr != resources.sounds.end(); ++soundPtr)
+                //        if (Selectable(soundPtr->first.c_str()))
+                //            attack.sfxAttack = soundPtr->second.get();
+                //
+                //    EndCombo();
+                //}
                 if (BeginCombo("##ATTACK_VFX", (attack.vfxAttack) ? attack.vfxAttack->name.c_str() : "VFX missing"))
                 {
                     for (std::unordered_map<std::string, std::unique_ptr<Particles::ParticlesPrefab>>::iterator particlePtr = resources.particles.begin(); particlePtr != resources.particles.end(); ++particlePtr)

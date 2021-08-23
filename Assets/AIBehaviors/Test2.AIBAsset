@@ -1,0 +1,20 @@
+{
+    "Name": "Test2",
+    "Steps": [
+        {
+            "ListOfBuilding": [
+                "Barrack"
+            ],
+            "NumberOfUnits": 11,
+            "NumberOfWorkers": 6
+        },
+        {
+            "ListOfBuilding": [
+                "Barrack",
+                "Barrack"
+            ],
+            "NumberOfUnits": 15,
+            "NumberOfWorkers": 8
+        }
+    ]
+}

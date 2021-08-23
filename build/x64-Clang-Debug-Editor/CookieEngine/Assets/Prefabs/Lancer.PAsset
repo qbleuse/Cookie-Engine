@@ -1,0 +1,79 @@
+{
+    "Colliders": "nullptr",
+    "FX": {
+        "CGPAttack": {
+            "sfxAttack": "NONE",
+            "vfxAttack": "NONE"
+        },
+        "CGPLive": {
+            "sfxDeath": "Death.mp3",
+            "sfxHit": "NONE",
+            "vfxDeath": "Death_All",
+            "vfxHit": "Hit_All"
+        }
+    },
+    "Gameplay": {
+        "CGPAttack": {
+            "AttackCooldown": 0.0,
+            "AttackDamage": 8.0,
+            "AttackRange": 0.2,
+            "AttackSpeed": 1.2000000476837158,
+            "NeedToAttack": false
+        },
+        "CGPLive": {
+            "Armor": 1.0,
+            "Life": 100.0,
+            "LifeMax": 100.0,
+            "PosLife": [
+                0.0,
+                3.0,
+                0.0
+            ]
+        },
+        "CGPMove": {
+            "MoveSpeed": 5.0,
+            "isFlying": false
+        },
+        "CGPProducer": {
+            "SupplyGiven": 0,
+            "TileSize": [
+                0.0,
+                0.0
+            ]
+        },
+        "CGPWorker": null,
+        "Cost": {
+            "CostPrimary": 50.0,
+            "CostSecondary": 0.0,
+            "CostSupply": 1.0,
+            "TimeToProduce": 4.0
+        },
+        "SignatureGameplay": 7,
+        "TeamName": 0,
+        "Type": 2
+    },
+    "Model": {
+        "Mesh": "Assets/Mod_Soldier.gltf - Soldier",
+        "Texture": {
+            "albedo": "Assets/Cookie_Texture/Soldier_low_02_lambert1_BaseColor.png",
+            "icon": "Assets/UI/IconLancier.tif",
+            "metallic": 0,
+            "normal": 0
+        }
+    },
+    "Name": "Lancer",
+    "Rigidbody": "nullptr",
+    "Signature": 51,
+    "Transform": {
+        "Rotation": [
+            0.0,
+            -132.79708862304688,
+            0.0
+        ],
+        "Scale": [
+            2.0,
+            2.0,
+            2.0
+        ]
+    }
+}

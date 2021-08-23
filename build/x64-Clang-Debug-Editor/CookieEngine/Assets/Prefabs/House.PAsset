@@ -1,0 +1,67 @@
+{
+    "Colliders": "nullptr",
+    "Gameplay": {
+        "CGPAttack": {
+            "AttackCooldown": 0.0,
+            "AttackDamage": 0.0,
+            "AttackRange": 0.0,
+            "AttackSpeed": 0.0,
+            "NeedToAttack": false
+        },
+        "CGPLive": {
+            "Armor": 1.0,
+            "Life": 400.0,
+            "LifeMax": 400.0,
+            "PosLife": [
+                0.0,
+                3.0,
+                0.0
+            ]
+        },
+        "CGPMove": {
+            "MoveSpeed": 0.0,
+            "isFlying": false
+        },
+        "CGPProducer": {
+            "SupplyGiven": 5,
+            "TileSize": [
+                2.0,
+                2.0
+            ]
+        },
+        "CGPWorker": null,
+        "Cost": {
+            "CostPrimary": 100.0,
+            "CostSecondary": 0.0,
+            "CostSupply": 0.0,
+            "TimeToProduce": 6.0
+        },
+        "SignatureGameplay": 9,
+        "TeamName": 0,
+        "Type": 3
+    },
+    "Model": {
+        "Mesh": "Assets/Mod_House.gltf - Mesh.001",
+        "Texture": {
+            "albedo": "Assets/House_Texture/Geo_House_low_lambert1_BaseColor.png",
+            "icon": "Assets/UI/IconHouse.tif",
+            "metallic": "Assets/House_Texture/Geo_House_low_lambert1_Metallic-Geo_House_low_lambert1_Roughness.png",
+            "normal": "Assets/House_Texture/Geo_House_low_lambert1_Normal.png"
+        }
+    },
+    "Name": "House",
+    "Rigidbody": "nullptr",
+    "Signature": 19,
+    "Transform": {
+        "Rotation": [
+            -0.0,
+            180.0,
+            0.0
+        ],
+        "Scale": [
+            1.0,
+            1.0,
+            1.0
+        ]
+    }
+}

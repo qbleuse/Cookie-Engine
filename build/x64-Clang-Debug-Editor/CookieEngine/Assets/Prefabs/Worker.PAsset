@@ -1,0 +1,76 @@
+{
+    "Colliders": "nullptr",
+    "Gameplay": {
+        "CGPAttack": {
+            "AttackCooldown": 0.0,
+            "AttackDamage": 0.0,
+            "AttackRange": 0.0,
+            "AttackSpeed": 0.0,
+            "NeedToAttack": false
+        },
+        "CGPLive": {
+            "Armor": 0.0,
+            "Life": 40.0,
+            "LifeMax": 40.0,
+            "PosLife": [
+                0.0,
+                3.0,
+                0.0
+            ]
+        },
+        "CGPMove": {
+            "MoveSpeed": 0.0,
+            "isFlying": false
+        },
+        "CGPProducer": {
+            "SupplyGiven": 0,
+            "TileSize": [
+                0.0,
+                0.0
+            ]
+        },
+        "CGPWorker": {
+            "name": [
+                "Base",
+                "Barrack",
+                "Factory",
+                "Airport",
+                "House",
+                "Tower"
+            ]
+        },
+        "Cost": {
+            "CostPrimary": 50.0,
+            "CostSecondary": 0.0,
+            "CostSupply": 1.0,
+            "TimeToProduce": 3.0
+        },
+        "SignatureGameplay": 17,
+        "TeamName": 0,
+        "Type": 1
+    },
+    "Model": {
+        "Mesh": "Assets/Mod_Cookie.gltf - Cookie",
+        "Texture": {
+            "albedo": "Assets/Cookie_Texture/Geo_Cookie_low_lambert1_BaseColor.png",
+            "icon": "Assets/UI/IconCookie.tif",
+            "metallic": "Assets/Cookie_Texture/Geo_Cookie_low_lambert1_Metallic-Geo_Cookie_low_lambert1_Roughness.png",
+            "normal": "Assets/Cookie_Texture/Geo_Cookie_low_lambert1_Normal.png"
+        }
+    },
+    "Name": "Worker",
+    "Rigidbody": "nullptr",
+    "Signature": 19,
+    "Transform": {
+        "Rotation": [
+            -0.0,
+            179.9978790283203,
+            0.0
+        ],
+        "Scale": [
+            2.0,
+            2.0,
+            2.0
+        ]
+    }
+}

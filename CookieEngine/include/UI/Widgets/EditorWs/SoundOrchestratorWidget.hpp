@@ -1,4 +1,4 @@
-#ifndef __SOUND_ORCHESTRATOR_W_HPP__
+/*#ifndef __SOUND_ORCHESTRATOR_W_HPP__
 #define __SOUND_ORCHESTRATOR_W_HPP__
 
 #include "UIwidgetBases.hpp"
@@ -20,4 +20,4 @@ namespace Cookie::UIwidget
 	};
 }
 
-#endif
+#endif*/

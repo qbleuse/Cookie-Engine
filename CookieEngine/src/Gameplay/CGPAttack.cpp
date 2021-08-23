@@ -17,8 +17,8 @@ void CGPAttack::Attack()
 
 	if (target && attackCooldown <= 0)
 	{
-		if (sfxAttack)
-			SoundManager::PlayMusic3D(sfxAttack, trs->pos);
+		//if (sfxAttack)
+		//	SoundManager::PlayMusic3D(sfxAttack, trs->pos);
 		if (vfxAttack)
 			ParticlesHandler::CreateParticlesWithPrefab(trs->pos, vfxAttack, target->trs->pos);
 

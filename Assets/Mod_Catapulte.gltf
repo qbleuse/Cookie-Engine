@@ -1,0 +1,158 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Capatulpe"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Tier2_Catapulte_Tex",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Catapulte",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_producerTier2_low_lambert1_Normal",
+            "uri" : "Tier2_Catapulte_Texture/Geo_producerTier2_low_lambert1_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_producerTier2_low_lambert1_BaseColor",
+            "uri" : "Tier2_Catapulte_Texture/Geo_producerTier2_low_lambert1_BaseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_producerTier2_low_lambert1_Metallic-Geo_producerTier2_low_lambert1_Roughness",
+            "uri" : "Tier2_Catapulte_Texture/Geo_producerTier2_low_lambert1_Metallic-Geo_producerTier2_low_lambert1_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1426,
+            "max" : [
+                1.844709873199463,
+                1.9318300485610962,
+                4.659989356994629
+            ],
+            "min" : [
+                -1.844709873199463,
+                -1.9318300485610962,
+                -4.659989833831787
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1426,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1426,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 4932,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 17112,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17112,
+            "byteOffset" : 17112
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11408,
+            "byteOffset" : 34224
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9864,
+            "byteOffset" : 45632
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 55496,
+            "uri" : "Mod_Catapulte.bin"
+        }
+    ]
+}

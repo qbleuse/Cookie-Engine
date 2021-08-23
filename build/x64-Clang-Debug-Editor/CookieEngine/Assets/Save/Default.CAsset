@@ -1,0 +1,1958 @@
+{
+    "ArmiesCoordinator": [
+        {
+            "aiBehaviorName": "Test1",
+            "armyName": 2,
+            "canAttack": true,
+            "canDefend": true,
+            "currentStepIndex": 0,
+            "nbOfBuildingInProduction": -7,
+            "nbOfUnitInProduction": 0,
+            "nbOfUnits": 0,
+            "nbOfWorker": 0,
+            "nbOfWorkerInProduction": 0
+        }
+    ],
+    "ArmyHandler": [
+        {
+            "Income": {
+                "incomePrimary": 1000.0,
+                "incomeSecondary": 500.0,
+                "supplyCurrent": 0.0,
+                "supplyMax": 200.0
+            },
+            "name": 1
+        },
+        {
+            "Income": {
+                "incomePrimary": 1000.0,
+                "incomeSecondary": 500.0,
+                "supplyCurrent": 0.0,
+                "supplyMax": 200.0
+            },
+            "name": 2
+        }
+    ],
+    "Camera": {
+        "aspectRatio": 1.7777777910232544,
+        "camFar": 1000.0,
+        "camNear": 0.009999999776482582,
+        "fov": 60.0,
+        "pos": [
+            45.3701286315918,
+            21.261533737182617,
+            -50.0
+        ],
+        "rot": [
+            1.2217299938201904,
+            0.0,
+            0.0
+        ],
+        "windowOffset": [
+            304.0,
+            327.0
+        ]
+    },
+    "ComponentHandler": {
+        "Model": [
+            {
+                "model": "Assets/Mod_Base.gltf - Mesh",
+                "texture": {
+                    "albedo": "Assets/Base_Texture/Geo_Base_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconBase.tif",
+                    "metallic": "Assets/Base_Texture/Geo_Base_low_lambert1_Metallic-Geo_Base_low_lambert1_Roughness.png",
+                    "normal": "Assets/Base_Texture/Geo_Base_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_Corn.gltf - Corn",
+                "texture": {
+                    "albedo": "Assets/Corn_Texture/Mod_Corn_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconChampBle.tif",
+                    "metallic": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Metallic-Mod_Corn_low_lambert1_Roughness.png",
+                    "normal": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_Corn.gltf - Corn",
+                "texture": {
+                    "albedo": "Assets/Corn_Texture/Mod_Corn_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconChampBle.tif",
+                    "metallic": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Metallic-Mod_Corn_low_lambert1_Roughness.png",
+                    "normal": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_Corn.gltf - Corn",
+                "texture": {
+                    "albedo": "Assets/Corn_Texture/Mod_Corn_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconChampBle.tif",
+                    "metallic": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Metallic-Mod_Corn_low_lambert1_Roughness.png",
+                    "normal": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_Corn.gltf - Corn",
+                "texture": {
+                    "albedo": "Assets/Corn_Texture/Mod_Corn_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconChampBle.tif",
+                    "metallic": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Metallic-Mod_Corn_low_lambert1_Roughness.png",
+                    "normal": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_Corn.gltf - Corn",
+                "texture": {
+                    "albedo": "Assets/Corn_Texture/Mod_Corn_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconChampBle.tif",
+                    "metallic": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Metallic-Mod_Corn_low_lambert1_Roughness.png",
+                    "normal": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_Base.gltf - Mesh",
+                "texture": {
+                    "albedo": "Assets/Base_Texture/Geo_Base_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconBase.tif",
+                    "metallic": "Assets/Base_Texture/Geo_Base_low_lambert1_Metallic-Geo_Base_low_lambert1_Roughness.png",
+                    "normal": "Assets/Base_Texture/Geo_Base_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_Corn.gltf - Corn",
+                "texture": {
+                    "albedo": "Assets/Corn_Texture/Mod_Corn_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconChampBle.tif",
+                    "metallic": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Metallic-Mod_Corn_low_lambert1_Roughness.png",
+                    "normal": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_Corn.gltf - Corn",
+                "texture": {
+                    "albedo": "Assets/Corn_Texture/Mod_Corn_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconChampBle.tif",
+                    "metallic": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Metallic-Mod_Corn_low_lambert1_Roughness.png",
+                    "normal": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_Corn.gltf - Corn",
+                "texture": {
+                    "albedo": "Assets/Corn_Texture/Mod_Corn_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconChampBle.tif",
+                    "metallic": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Metallic-Mod_Corn_low_lambert1_Roughness.png",
+                    "normal": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_Corn.gltf - Corn",
+                "texture": {
+                    "albedo": "Assets/Corn_Texture/Mod_Corn_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconChampBle.tif",
+                    "metallic": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Metallic-Mod_Corn_low_lambert1_Roughness.png",
+                    "normal": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_Corn.gltf - Corn",
+                "texture": {
+                    "albedo": "Assets/Corn_Texture/Mod_Corn_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconChampBle.tif",
+                    "metallic": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Metallic-Mod_Corn_low_lambert1_Roughness.png",
+                    "normal": "Assets/Corn_Texture/Mod_Corn_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_DomeChoco.gltf - DomeChoco",
+                "texture": {
+                    "albedo": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconDomeChoco.tif",
+                    "metallic": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_Metallic-Mod_Dome_low_lambert1_Roughness.png",
+                    "normal": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_DomeChoco.gltf - DomeChoco",
+                "texture": {
+                    "albedo": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconDomeChoco.tif",
+                    "metallic": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_Metallic-Mod_Dome_low_lambert1_Roughness.png",
+                    "normal": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_DomeChoco.gltf - DomeChoco",
+                "texture": {
+                    "albedo": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconDomeChoco.tif",
+                    "metallic": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_Metallic-Mod_Dome_low_lambert1_Roughness.png",
+                    "normal": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_Normal.png"
+                }
+            },
+            {
+                "model": "Assets/Mod_DomeChoco.gltf - DomeChoco",
+                "texture": {
+                    "albedo": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_BaseColor.png",
+                    "icon": "Assets/UI/IconDomeChoco.tif",
+                    "metallic": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_Metallic-Mod_Dome_low_lambert1_Roughness.png",
+                    "normal": "Assets/DomeChoco_Texture/Mod_Dome_low_lambert1_Normal.png"
+                }
+            }
+        ],
+        "Transform": [
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        6.0,
+                        6.0,
+                        6.0
+                    ],
+                    "translate": [
+                        42.0,
+                        2.641211748123169,
+                        39.0
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "translate": [
+                        48.5,
+                        1.0000019073486328,
+                        39.627357482910156
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "translate": [
+                        48.5,
+                        1.0,
+                        41.5
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "translate": [
+                        47.5,
+                        1.0,
+                        44.5
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "translate": [
+                        40.5,
+                        1.0,
+                        44.5
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "translate": [
+                        44.5,
+                        1.0,
+                        44.5
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        6.0,
+                        6.0,
+                        6.0
+                    ],
+                    "translate": [
+                        -41.0,
+                        2.641211748123169,
+                        -42.0
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "translate": [
+                        -46.5,
+                        1.0,
+                        -47.5
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "translate": [
+                        -47.5,
+                        1.0,
+                        -45.5
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "translate": [
+                        -47.5,
+                        1.0,
+                        -42.5
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "translate": [
+                        -43.5,
+                        1.0,
+                        -48.5
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "translate": [
+                        -47.5,
+                        1.0000019073486328,
+                        -40.5
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        180.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "translate": [
+                        38.7484130859375,
+                        1.0,
+                        44.02018737792969
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        179.98971557617188,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "translate": [
+                        48.73531723022461,
+                        1.0,
+                        36.71095275878906
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        179.99295043945313,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "translate": [
+                        -47.60987091064453,
+                        1.0,
+                        -39.29991149902344
+                    ]
+                }
+            },
+            {
+                "localTRS": {
+                    "rotation": [
+                        -0.0,
+                        179.996337890625,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "translate": [
+                        -40.1859130859375,
+                        1.0,
+                        -48.137699127197266
+                    ]
+                }
+            }
+        ]
+    },
+    "EntityHandler": [
+        {
+            "entity": {
+                "id": 0,
+                "name": "Base",
+                "namePrefab": "Base",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 1,
+                "name": "ResourcePrimary",
+                "namePrefab": "ResourcePrimary",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 2,
+                "name": "ResourcePrimary",
+                "namePrefab": "ResourcePrimary",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 3,
+                "name": "ResourcePrimary",
+                "namePrefab": "ResourcePrimary",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 4,
+                "name": "ResourcePrimary",
+                "namePrefab": "ResourcePrimary",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 5,
+                "name": "ResourcePrimary",
+                "namePrefab": "ResourcePrimary",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 6,
+                "name": "Base",
+                "namePrefab": "Base",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 7,
+                "name": "ResourcePrimary",
+                "namePrefab": "ResourcePrimary",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 8,
+                "name": "ResourcePrimary",
+                "namePrefab": "ResourcePrimary",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 9,
+                "name": "ResourcePrimary",
+                "namePrefab": "ResourcePrimary",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 10,
+                "name": "ResourcePrimary",
+                "namePrefab": "ResourcePrimary",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 11,
+                "name": "ResourcePrimary",
+                "namePrefab": "ResourcePrimary",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 12,
+                "name": "ResourceSecondary",
+                "namePrefab": "ResourceSecondary",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 13,
+                "name": "ResourceSecondary",
+                "namePrefab": "ResourceSecondary",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 14,
+                "name": "ResourceSecondary",
+                "namePrefab": "ResourceSecondary",
+                "signature": 19
+            }
+        },
+        {
+            "entity": {
+                "id": 15,
+                "name": "ResourceSecondary",
+                "namePrefab": "ResourceSecondary",
+                "signature": 19
+            }
+        }
+    ],
+    "Gameplay": [
+        {
+            "CGPLive": {
+                "Armor": 0.0,
+                "Life": 1500.0,
+                "LifeMax": 1500.0,
+                "PosLife": [
+                    0.0,
+                    3.0,
+                    0.0
+                ]
+            },
+            "CGPProducer": {
+                "OccupiedTiles": [
+                    8689,
+                    8789,
+                    8889,
+                    8989,
+                    9089,
+                    9189,
+                    8690,
+                    8790,
+                    8890,
+                    8990,
+                    9090,
+                    9190,
+                    8691,
+                    8791,
+                    8891,
+                    8991,
+                    9091,
+                    9191,
+                    8692,
+                    8792,
+                    8892,
+                    8992,
+                    9092,
+                    9192,
+                    8693,
+                    8793,
+                    8893,
+                    8993,
+                    9093,
+                    9193,
+                    8694,
+                    8794,
+                    8894,
+                    8994,
+                    9094,
+                    9194
+                ],
+                "SupplyGiven": 0,
+                "TileSize": [
+                    6.0,
+                    6.0
+                ],
+                "name": [
+                    "Worker"
+                ]
+            },
+            "Cost": {
+                "CostPrimary": 300.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 15.0
+            },
+            "SignatureGameplay": 9,
+            "TeamName": 1,
+            "Type": 3
+        },
+        {
+            "CGPResource": {
+                "isPrimary": false,
+                "resourcesReserve": 1000.0
+            },
+            "Cost": {
+                "CostPrimary": 0.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 0.0
+            },
+            "SignatureGameplay": 32,
+            "TeamName": 0,
+            "Type": 0
+        },
+        {
+            "CGPResource": {
+                "isPrimary": false,
+                "resourcesReserve": 1000.0
+            },
+            "Cost": {
+                "CostPrimary": 0.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 0.0
+            },
+            "SignatureGameplay": 32,
+            "TeamName": 0,
+            "Type": 0
+        },
+        {
+            "CGPResource": {
+                "isPrimary": true,
+                "resourcesReserve": 1000.0
+            },
+            "Cost": {
+                "CostPrimary": 0.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 0.0
+            },
+            "SignatureGameplay": 32,
+            "TeamName": 0,
+            "Type": 0
+        },
+        {
+            "CGPResource": {
+                "isPrimary": true,
+                "resourcesReserve": 1000.0
+            },
+            "Cost": {
+                "CostPrimary": 0.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 0.0
+            },
+            "SignatureGameplay": 32,
+            "TeamName": 0,
+            "Type": 0
+        },
+        {
+            "CGPResource": {
+                "isPrimary": true,
+                "resourcesReserve": 1000.0
+            },
+            "Cost": {
+                "CostPrimary": 0.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 0.0
+            },
+            "SignatureGameplay": 32,
+            "TeamName": 0,
+            "Type": 0
+        },
+        {
+            "CGPLive": {
+                "Armor": 0.0,
+                "Life": 1500.0,
+                "LifeMax": 1500.0,
+                "PosLife": [
+                    0.0,
+                    3.0,
+                    0.0
+                ]
+            },
+            "CGPProducer": {
+                "OccupiedTiles": [
+                    506,
+                    606,
+                    706,
+                    806,
+                    906,
+                    1006,
+                    507,
+                    607,
+                    707,
+                    807,
+                    907,
+                    1007,
+                    508,
+                    608,
+                    708,
+                    808,
+                    908,
+                    1008,
+                    509,
+                    609,
+                    709,
+                    809,
+                    909,
+                    1009,
+                    510,
+                    610,
+                    710,
+                    810,
+                    910,
+                    1010,
+                    511,
+                    611,
+                    711,
+                    811,
+                    911,
+                    1011
+                ],
+                "SupplyGiven": 0,
+                "TileSize": [
+                    6.0,
+                    6.0
+                ],
+                "name": [
+                    "Worker"
+                ]
+            },
+            "Cost": {
+                "CostPrimary": 300.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 15.0
+            },
+            "SignatureGameplay": 9,
+            "TeamName": 2,
+            "Type": 3
+        },
+        {
+            "CGPResource": {
+                "isPrimary": true,
+                "resourcesReserve": 1000.0
+            },
+            "Cost": {
+                "CostPrimary": 0.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 0.0
+            },
+            "SignatureGameplay": 32,
+            "TeamName": 0,
+            "Type": 0
+        },
+        {
+            "CGPResource": {
+                "isPrimary": true,
+                "resourcesReserve": 1000.0
+            },
+            "Cost": {
+                "CostPrimary": 0.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 0.0
+            },
+            "SignatureGameplay": 32,
+            "TeamName": 0,
+            "Type": 0
+        },
+        {
+            "CGPResource": {
+                "isPrimary": true,
+                "resourcesReserve": 1000.0
+            },
+            "Cost": {
+                "CostPrimary": 0.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 0.0
+            },
+            "SignatureGameplay": 32,
+            "TeamName": 0,
+            "Type": 0
+        },
+        {
+            "CGPResource": {
+                "isPrimary": true,
+                "resourcesReserve": 1000.0
+            },
+            "Cost": {
+                "CostPrimary": 0.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 0.0
+            },
+            "SignatureGameplay": 32,
+            "TeamName": 0,
+            "Type": 0
+        },
+        {
+            "CGPResource": {
+                "isPrimary": true,
+                "resourcesReserve": 1000.0
+            },
+            "Cost": {
+                "CostPrimary": 0.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 0.0
+            },
+            "SignatureGameplay": 32,
+            "TeamName": 0,
+            "Type": 0
+        },
+        {
+            "CGPResource": {
+                "isPrimary": false,
+                "resourcesReserve": 1000.0
+            },
+            "Cost": {
+                "CostPrimary": 0.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 0.0
+            },
+            "SignatureGameplay": 32,
+            "TeamName": 0,
+            "Type": 0
+        },
+        {
+            "CGPResource": {
+                "isPrimary": false,
+                "resourcesReserve": 1000.0
+            },
+            "Cost": {
+                "CostPrimary": 0.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 0.0
+            },
+            "SignatureGameplay": 32,
+            "TeamName": 0,
+            "Type": 0
+        },
+        {
+            "CGPResource": {
+                "isPrimary": false,
+                "resourcesReserve": 1000.0
+            },
+            "Cost": {
+                "CostPrimary": 0.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 0.0
+            },
+            "SignatureGameplay": 32,
+            "TeamName": 0,
+            "Type": 0
+        },
+        {
+            "CGPResource": {
+                "isPrimary": false,
+                "resourcesReserve": 1000.0
+            },
+            "Cost": {
+                "CostPrimary": 0.0,
+                "CostSecondary": 0.0,
+                "CostSupply": 0.0,
+                "TimeToProduce": 0.0
+            },
+            "SignatureGameplay": 32,
+            "TeamName": 0,
+            "Type": 0
+        }
+    ],
+    "LightsArray": {
+        "DirLight": {
+            "castShadow": true,
+            "color": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "dir": [
+                0.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        "PointLights": [
+            {
+                "color": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "pos": [
+                    -40.0,
+                    1.0,
+                    -40.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.0,
+                    0.125,
+                    0.0
+                ],
+                "pos": [
+                    -40.0,
+                    1.0,
+                    -30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.0,
+                    0.25,
+                    0.0
+                ],
+                "pos": [
+                    -40.0,
+                    1.0,
+                    -20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.0,
+                    0.375,
+                    0.0
+                ],
+                "pos": [
+                    -40.0,
+                    1.0,
+                    -10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.0,
+                    0.5,
+                    0.0
+                ],
+                "pos": [
+                    -40.0,
+                    1.0,
+                    0.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.0,
+                    0.625,
+                    0.0
+                ],
+                "pos": [
+                    -40.0,
+                    1.0,
+                    10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.0,
+                    0.75,
+                    0.0
+                ],
+                "pos": [
+                    -40.0,
+                    1.0,
+                    20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.0,
+                    0.875,
+                    0.0
+                ],
+                "pos": [
+                    -40.0,
+                    1.0,
+                    30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.125,
+                    0.0,
+                    0.0
+                ],
+                "pos": [
+                    -30.0,
+                    1.0,
+                    -40.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.125,
+                    0.125,
+                    0.0
+                ],
+                "pos": [
+                    -30.0,
+                    1.0,
+                    -30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.125,
+                    0.25,
+                    0.0
+                ],
+                "pos": [
+                    -30.0,
+                    1.0,
+                    -20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.125,
+                    0.375,
+                    0.0
+                ],
+                "pos": [
+                    -30.0,
+                    1.0,
+                    -10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.125,
+                    0.5,
+                    0.0
+                ],
+                "pos": [
+                    -30.0,
+                    1.0,
+                    0.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.125,
+                    0.625,
+                    0.0
+                ],
+                "pos": [
+                    -30.0,
+                    1.0,
+                    10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.125,
+                    0.75,
+                    0.0
+                ],
+                "pos": [
+                    -30.0,
+                    1.0,
+                    20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.125,
+                    0.875,
+                    0.0
+                ],
+                "pos": [
+                    -30.0,
+                    1.0,
+                    30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.25,
+                    0.0,
+                    0.0
+                ],
+                "pos": [
+                    -20.0,
+                    1.0,
+                    -40.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.25,
+                    0.125,
+                    0.0
+                ],
+                "pos": [
+                    -20.0,
+                    1.0,
+                    -30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.25,
+                    0.25,
+                    0.0
+                ],
+                "pos": [
+                    -20.0,
+                    1.0,
+                    -20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.25,
+                    0.375,
+                    0.0
+                ],
+                "pos": [
+                    -20.0,
+                    1.0,
+                    -10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.25,
+                    0.5,
+                    0.0
+                ],
+                "pos": [
+                    -20.0,
+                    1.0,
+                    0.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.25,
+                    0.625,
+                    0.0
+                ],
+                "pos": [
+                    -20.0,
+                    1.0,
+                    10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.25,
+                    0.75,
+                    0.0
+                ],
+                "pos": [
+                    -20.0,
+                    1.0,
+                    20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.25,
+                    0.875,
+                    0.0
+                ],
+                "pos": [
+                    -20.0,
+                    1.0,
+                    30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.375,
+                    0.0,
+                    0.0
+                ],
+                "pos": [
+                    -10.0,
+                    1.0,
+                    -40.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.375,
+                    0.125,
+                    0.0
+                ],
+                "pos": [
+                    -10.0,
+                    1.0,
+                    -30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.375,
+                    0.25,
+                    0.0
+                ],
+                "pos": [
+                    -10.0,
+                    1.0,
+                    -20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.375,
+                    0.375,
+                    0.0
+                ],
+                "pos": [
+                    -10.0,
+                    1.0,
+                    -10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.375,
+                    0.5,
+                    0.0
+                ],
+                "pos": [
+                    -10.0,
+                    1.0,
+                    0.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.375,
+                    0.625,
+                    0.0
+                ],
+                "pos": [
+                    -10.0,
+                    1.0,
+                    10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.375,
+                    0.75,
+                    0.0
+                ],
+                "pos": [
+                    -10.0,
+                    1.0,
+                    20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.375,
+                    0.875,
+                    0.0
+                ],
+                "pos": [
+                    -10.0,
+                    1.0,
+                    30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.5,
+                    0.0,
+                    0.0
+                ],
+                "pos": [
+                    0.0,
+                    1.0,
+                    -40.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.5,
+                    0.125,
+                    0.0
+                ],
+                "pos": [
+                    0.0,
+                    1.0,
+                    -30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.5,
+                    0.25,
+                    0.0
+                ],
+                "pos": [
+                    0.0,
+                    1.0,
+                    -20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.5,
+                    0.375,
+                    0.0
+                ],
+                "pos": [
+                    0.0,
+                    1.0,
+                    -10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.5,
+                    0.5,
+                    0.0
+                ],
+                "pos": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.5,
+                    0.625,
+                    0.0
+                ],
+                "pos": [
+                    0.0,
+                    1.0,
+                    10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.5,
+                    0.75,
+                    0.0
+                ],
+                "pos": [
+                    0.0,
+                    1.0,
+                    20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.5,
+                    0.875,
+                    0.0
+                ],
+                "pos": [
+                    0.0,
+                    1.0,
+                    30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.625,
+                    0.0,
+                    0.0
+                ],
+                "pos": [
+                    10.0,
+                    1.0,
+                    -40.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.625,
+                    0.125,
+                    0.0
+                ],
+                "pos": [
+                    10.0,
+                    1.0,
+                    -30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.625,
+                    0.25,
+                    0.0
+                ],
+                "pos": [
+                    10.0,
+                    1.0,
+                    -20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.625,
+                    0.375,
+                    0.0
+                ],
+                "pos": [
+                    10.0,
+                    1.0,
+                    -10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.625,
+                    0.5,
+                    0.0
+                ],
+                "pos": [
+                    10.0,
+                    1.0,
+                    0.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.625,
+                    0.625,
+                    0.0
+                ],
+                "pos": [
+                    10.0,
+                    1.0,
+                    10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.625,
+                    0.75,
+                    0.0
+                ],
+                "pos": [
+                    10.0,
+                    1.0,
+                    20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.625,
+                    0.875,
+                    0.0
+                ],
+                "pos": [
+                    10.0,
+                    1.0,
+                    30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.75,
+                    0.0,
+                    0.0
+                ],
+                "pos": [
+                    20.0,
+                    1.0,
+                    -40.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.75,
+                    0.125,
+                    0.0
+                ],
+                "pos": [
+                    20.0,
+                    1.0,
+                    -30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.75,
+                    0.25,
+                    0.0
+                ],
+                "pos": [
+                    20.0,
+                    1.0,
+                    -20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.75,
+                    0.375,
+                    0.0
+                ],
+                "pos": [
+                    20.0,
+                    1.0,
+                    -10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.75,
+                    0.5,
+                    0.0
+                ],
+                "pos": [
+                    20.0,
+                    1.0,
+                    0.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.75,
+                    0.625,
+                    0.0
+                ],
+                "pos": [
+                    20.0,
+                    1.0,
+                    10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.75,
+                    0.75,
+                    0.0
+                ],
+                "pos": [
+                    20.0,
+                    1.0,
+                    20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.75,
+                    0.875,
+                    0.0
+                ],
+                "pos": [
+                    20.0,
+                    1.0,
+                    30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.875,
+                    0.0,
+                    0.0
+                ],
+                "pos": [
+                    30.0,
+                    1.0,
+                    -40.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.875,
+                    0.125,
+                    0.0
+                ],
+                "pos": [
+                    30.0,
+                    1.0,
+                    -30.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.875,
+                    0.25,
+                    0.0
+                ],
+                "pos": [
+                    30.0,
+                    1.0,
+                    -20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.875,
+                    0.375,
+                    0.0
+                ],
+                "pos": [
+                    30.0,
+                    1.0,
+                    -10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.875,
+                    0.5,
+                    0.0
+                ],
+                "pos": [
+                    30.0,
+                    1.0,
+                    0.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.875,
+                    0.625,
+                    0.0
+                ],
+                "pos": [
+                    30.0,
+                    1.0,
+                    10.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.875,
+                    0.75,
+                    0.0
+                ],
+                "pos": [
+                    30.0,
+                    1.0,
+                    20.0
+                ],
+                "radius": 5.0
+            },
+            {
+                "color": [
+                    0.875,
+                    0.875,
+                    0.0
+                ],
+                "pos": [
+                    30.0,
+                    1.0,
+                    30.0
+                ],
+                "radius": 5.0
+            }
+        ],
+        "useDir": true,
+        "usedPoints": 64
+    },
+    "Map": {
+        "model": {
+            "texture": {
+                "albedo": "Assets/Floor_DefaultMaterial_BaseColor.png"
+            }
+        },
+        "physic": {
+            "Colliders": [
+                {
+                    "HalfExtents": [
+                        50.0,
+                        0.5,
+                        50.0
+                    ],
+                    "bounciness": 0.5,
+                    "density": 1.0,
+                    "frictionCoeff": 0.30000001192092896,
+                    "rollingResistance": 0.0,
+                    "transform": {
+                        "pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "quaternion": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "type": "Box"
+                }
+            ],
+            "Rigidbody": {
+                "active": true,
+                "allowedToSleep": true,
+                "angularDamping": 0.0,
+                "gravityEnabled": true,
+                "linearDamping": 0.0,
+                "mass": 1.0,
+                "sleeping": false,
+                "type": 0
+            },
+            "physicTRS": {
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "quaternion": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "tilesNb": [
+            100.0,
+            100.0
+        ],
+        "tilesSize": [
+            1.0,
+            1.0
+        ],
+        "trs": {
+            "pos": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                100.0,
+                1.0,
+                100.0
+            ]
+        }
+    },
+    "Name": "Scene",
+    "SkyboxName": "Assets/skybox.dds",
+    "Type": "map",
+    "UIScene": [
+        {
+            "ID": 4,
+            "height": 300,
+            "width": 300,
+            "xPos": 0,
+            "yPos": 420
+        },
+        {
+            "ID": 1,
+            "height": 260,
+            "width": 680,
+            "xPos": 300,
+            "yPos": 460
+        },
+        {
+            "ID": 2,
+            "height": 300,
+            "width": 300,
+            "xPos": 980,
+            "yPos": 420
+        },
+        {
+            "ID": 8,
+            "height": 90,
+            "width": 170,
+            "xPos": 1110,
+            "yPos": 0
+        }
+    ]
+}

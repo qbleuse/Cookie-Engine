@@ -1,0 +1,79 @@
+{
+    "Colliders": "nullptr",
+    "FX": {
+        "CGPAttack": {
+            "sfxAttack": "NONE",
+            "vfxAttack": "Attack_Gunner"
+        },
+        "CGPLive": {
+            "sfxDeath": "Death.mp3",
+            "sfxHit": "NONE",
+            "vfxDeath": "Death_All",
+            "vfxHit": "Hit_All"
+        }
+    },
+    "Gameplay": {
+        "CGPAttack": {
+            "AttackCooldown": 0.0,
+            "AttackDamage": 6.0,
+            "AttackRange": 5.0,
+            "AttackSpeed": 0.8500000238418579,
+            "NeedToAttack": false
+        },
+        "CGPLive": {
+            "Armor": 0.0,
+            "Life": 50.0,
+            "LifeMax": 50.0,
+            "PosLife": [
+                0.0,
+                3.0,
+                0.0
+            ]
+        },
+        "CGPMove": {
+            "MoveSpeed": 5.0,
+            "isFlying": false
+        },
+        "CGPProducer": {
+            "SupplyGiven": 0,
+            "TileSize": [
+                0.0,
+                0.0
+            ]
+        },
+        "CGPWorker": null,
+        "Cost": {
+            "CostPrimary": 50.0,
+            "CostSecondary": 0.0,
+            "CostSupply": 1.0,
+            "TimeToProduce": 4.0
+        },
+        "SignatureGameplay": 7,
+        "TeamName": 0,
+        "Type": 2
+    },
+    "Model": {
+        "Mesh": "Assets/Mod_Gunner.gltf - Gunner",
+        "Texture": {
+            "albedo": "Assets/Gunner_Texture/Geo_Canonier_low_lambert2_BaseColor.png",
+            "icon": "Assets/UI/IconCanon.tif",
+            "metallic": "Assets/Gunner_Texture/Geo_Canonier_low_lambert2_Metallic-Geo_Canonier_low_lambert2_Roughness.png",
+            "normal": "Assets/Gunner_Texture/Geo_Canonier_low_lambert2_Normal.png"
+        }
+    },
+    "Name": "Gunner",
+    "Rigidbody": "nullptr",
+    "Signature": 51,
+    "Transform": {
+        "Rotation": [
+            0.0,
+            -134.27792358398438,
+            0.0
+        ],
+        "Scale": [
+            1.0,
+            1.0,
+            1.0
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "Colliders": "nullptr",
+    "Gameplay": {
+        "CGPAttack": {
+            "AttackCooldown": 0.0,
+            "AttackDamage": 20.0,
+            "AttackRange": 5.0,
+            "AttackSpeed": 1.5,
+            "NeedToAttack": false
+        },
+        "CGPLive": {
+            "Armor": 1.0,
+            "Life": 300.0,
+            "LifeMax": 300.0,
+            "PosLife": [
+                0.0,
+                3.0,
+                0.0
+            ]
+        },
+        "CGPMove": {
+            "MoveSpeed": 5.0,
+            "isFlying": false
+        },
+        "CGPProducer": {
+            "SupplyGiven": 0,
+            "TileSize": [
+                2.0,
+                2.0
+            ]
+        },
+        "CGPWorker": null,
+        "Cost": {
+            "CostPrimary": 100.0,
+            "CostSecondary": 0.0,
+            "CostSupply": 0.0,
+            "TimeToProduce": 6.0
+        },
+        "SignatureGameplay": 13,
+        "TeamName": 0,
+        "Type": 3
+    },
+    "Model": {
+        "Mesh": "Assets/Gunner_Texture/Mod_Tour_1.gltf - Tour_1",
+        "Texture": {
+            "albedo": "Assets/DomeChoco_Texture/Tours_Texture/Geo_Tours_low_lambert1_BaseColor.png",
+            "icon": "Assets/UI/IconTour_1.tif",
+            "metallic": "Assets/DomeChoco_Texture/Tours_Texture/Geo_Tours_low_lambert1_Metallic-Geo_Tours_low_lambert1_Roughness.png",
+            "normal": "Assets/DomeChoco_Texture/Tours_Texture/Geo_Tours_low_lambert1_Normal.png"
+        }
+    },
+    "Name": "Tower",
+    "Rigidbody": "nullptr",
+    "Signature": 19,
+    "Transform": {
+        "Rotation": [
+            -0.0,
+            179.97251892089844,
+            0.0
+        ],
+        "Scale": [
+            3.000000238418579,
+            3.0,
+            3.000000238418579
+        ]
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Gunner"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Gunner",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Gunner",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_Canonier_low_lambert2_Normal",
+            "uri" : "Gunner_Texture/Geo_Canonier_low_lambert2_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_Canonier_low_lambert2_BaseColor",
+            "uri" : "Gunner_Texture/Geo_Canonier_low_lambert2_BaseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_Canonier_low_lambert2_Metallic-Geo_Canonier_low_lambert2_Roughness",
+            "uri" : "Gunner_Texture/Geo_Canonier_low_lambert2_Metallic-Geo_Canonier_low_lambert2_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1293,
+            "max" : [
+                1.274192214012146,
+                1.9557892084121704,
+                1.5013421773910522
+            ],
+            "min" : [
+                -1.274192214012146,
+                -1.9557892084121704,
+                -1.5013422966003418
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1293,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1293,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1293,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 6138,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 15516,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15516,
+            "byteOffset" : 15516
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10344,
+            "byteOffset" : 31032
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10344,
+            "byteOffset" : 41376
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12276,
+            "byteOffset" : 51720
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 63996,
+            "uri" : "Mod_Gunner.bin"
+        }
+    ]
+}

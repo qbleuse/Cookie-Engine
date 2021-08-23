@@ -1,0 +1,177 @@
+{
+    "Data": [
+        {
+            "CountAlive": 1,
+            "CountFrame": 1,
+            "IsBillBoard": false,
+            "Mesh": "Quad",
+            "Size": 2,
+            "Texture": "Assets/VFX/White.png"
+        },
+        {
+            "CountAlive": 8,
+            "CountFrame": 8,
+            "IsBillBoard": true,
+            "Mesh": "Quad",
+            "Size": 8,
+            "Texture": "Assets/VFX/White.png"
+        },
+        {
+            "CountAlive": 0,
+            "CountFrame": 800,
+            "IsBillBoard": true,
+            "Mesh": "Quad",
+            "Size": 800,
+            "Texture": "Assets/VFX/White.png"
+        }
+    ],
+    "Emitter": [
+        {
+            "Generators": [
+                {
+                    "Type": 10,
+                    "timeMax": 0.95,
+                    "timeMin": 0.85
+                },
+		{
+                    "Type": 4,
+                    "scaleMin":[
+                        1.9,
+                        1.9,
+                        1.9
+                    ],
+                    "scaleMax": [
+                        2.5,
+                        2.5,
+                        2.5
+                    ]
+                },
+                {
+                    "Type": 5,
+                    "rotMax": [
+                        1.570796012878418,
+                        0.0,
+                        3.141592025756836
+                    ],
+                    "rotMin": [
+                        1.570796012878418,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "Type": 0,
+                    "pos": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ],
+            "Updates": [
+                {
+                    "Type": 5
+                },
+                {
+                    "Type": 2,
+                    "alphaEnd": 0.0
+                },
+                {
+                    "Type": 1,
+                    "scaleEnd": [
+                        4.5,
+                        4.5,
+                        4.5
+                    ]
+                }
+            ]
+        },
+        {
+            "Generators": [
+                {
+                    "Type": 0,
+                    "pos": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "Type": 7,
+                    "velMax": [
+                        7.0,
+                        12.0,
+                        7.0
+                    ],
+                    "velMin": [
+                        -7.0,
+                        7.0,
+                        -7.0
+                    ]
+                },
+                {
+                    "Type": 8,
+                    "mass": 1.0
+                },
+                {
+                    "Type": 10,
+                    "timeMax": 2.25,
+                    "timeMin": 1.0
+                },
+                {
+                    "Type": 4,
+                    "scaleMax": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ],
+                    "scaleMin": [
+                        0.35,
+                        0.35,
+                        0.35
+                    ]
+                }
+            ],
+            "Updates": [
+                {
+                    "Type": 4,
+                    "gravity": -9.8100004196167
+                },
+                {
+                    "Type": 0
+                },
+                {
+                    "Type": 5
+                },
+                {
+                    "Type": 1,
+                    "scaleEnd": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "Type": 8,
+                    "index": 2,
+	  	    "coeffScale": 1,
+		    "coeffPos": 3,
+		    "time": 0.45
+                }
+            ]
+        },
+        {
+            "Generators": 0,
+            "Updates": [
+                {
+                    "Type": 5
+                },
+                {
+                    "Type": 2,
+                    "alphaEnd": 0.0
+                }
+            ]
+        }
+    ],
+    "Name": "Fragment_ExplosionWhite"
+}

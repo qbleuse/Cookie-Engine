@@ -1,0 +1,70 @@
+{
+    "Data": [
+        {
+            "CountAlive": 1,
+            "CountFrame": 1,
+            "IsBillBoard": false,
+            "Mesh": "Quad",
+            "Size": 2,
+            "Texture": "Assets/VFX/Target.png"
+        }
+    ],
+    "Emitter": [
+        {
+            "Generators": [
+                {
+                    "Type": 5,
+                    "rotMax": [
+                        1.570796012878418,
+                        0.0,
+                        3.141592025756836
+                    ],
+                    "rotMin": [
+                        1.570796012878418,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "Type": 9,
+                    "time": 0.75
+                },
+                {
+                    "Type": 11,
+                    "color": [
+                        0.0,
+                        1.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "Type": 0,
+                    "pos": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ],
+            "Updates": [
+                {
+                    "Type": 5
+                },
+                {
+                    "Type": 2,
+                    "alphaEnd": 0.0
+                },
+                {
+                    "Type": 1,
+                    "scaleEnd": [
+                        1.25,
+                        1.25,
+                        1.25
+                    ]
+                }
+            ]
+        }
+    ],
+    "Name": "Target_Mouse_Red"
+}

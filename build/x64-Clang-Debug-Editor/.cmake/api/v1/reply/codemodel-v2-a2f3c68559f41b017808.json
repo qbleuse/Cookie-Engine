@@ -1,0 +1,149 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "CookieEngine",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CookieEngine",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "CookieEngine/deps/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "CookieEngine/deps/src"
+				},
+				{
+					"build" : "CookieEngine/src/ECS",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "CookieEngine/src/ECS"
+				},
+				{
+					"build" : "CookieEngine/src/Gameplay",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "CookieEngine/src/Gameplay"
+				},
+				{
+					"build" : "CookieEngine/src/UI",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "CookieEngine/src/UI"
+				},
+				{
+					"build" : "CookieEngine/src/Render",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "CookieEngine/src/Render"
+				},
+				{
+					"build" : "CookieEngine/src/Resources",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "CookieEngine/src/Resources"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "CookieEngine",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "CookieEngine::@3187b66151a8417b47d5",
+					"jsonFile" : "target-CookieEngine-Debug-e3cff0944d1fc44ea601.json",
+					"name" : "CookieEngine",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Users/Quentin/Desktop/GIT/Cookie-Engine/build/x64-Clang-Debug-Editor",
+		"source" : "D:/Users/Quentin/Desktop/GIT/Cookie-Engine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

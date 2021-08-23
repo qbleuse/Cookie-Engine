@@ -1,0 +1,170 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Tier1"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Tier1_Tex",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Tier1",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_ProducerTier1_low_lambert2_Normal",
+            "uri" : "Tier1_Texture/Geo_ProducerTier1_low_lambert2_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_ProducerTier1_low_lambert2_BaseColor",
+            "uri" : "Tier1_Texture/Geo_ProducerTier1_low_lambert2_BaseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Geo_ProducerTier1_low_lambert2_Metallic-Geo_ProducerTier1_low_lambert2_Roughness",
+            "uri" : "Tier1_Texture/Geo_ProducerTier1_low_lambert2_Metallic-Geo_ProducerTier1_low_lambert2_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1299,
+            "max" : [
+                9.966020584106445,
+                4.798299789428711,
+                7.017050743103027
+            ],
+            "min" : [
+                -9.966020584106445,
+                -4.798299789428711,
+                -7.017049789428711
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1299,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1299,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1299,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 4596,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 15588,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15588,
+            "byteOffset" : 15588
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10392,
+            "byteOffset" : 31176
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10392,
+            "byteOffset" : 41568
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9192,
+            "byteOffset" : 51960
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 61152,
+            "uri" : "Mod_Tier1.bin"
+        }
+    ]
+}

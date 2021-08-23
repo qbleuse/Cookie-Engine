@@ -1,0 +1,68 @@
+{
+    "Data": [
+        {
+            "CountAlive": 1,
+            "CountFrame": 1,
+            "IsBillBoard": false,
+            "Mesh": "Assets/Mod_Plane.gltf - Mesh.009",
+            "Size": 1,
+            "Texture": "Assets/Tier3_Texture/Geo_Tier3_low_lambert1_BaseColor.png"
+        }
+    ],
+    "Emitter": [
+        {
+            "Generators": [
+                {
+                    "Type": 0,
+                    "pos": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "Type": 9,
+                    "time": 10.0
+                },
+                {
+                    "Type": 8,
+                    "mass": 1.0
+                },
+                {
+                    "Type": 6,
+                    "vel": [
+                        0.0,
+                        -9.8100004196167,
+                        0.0
+                    ]
+                }
+            ],
+            "Updates": [
+                {
+                    "Type": 0
+                },
+                {
+                    "Type": 5
+                },
+                {
+                    "Type": 8,
+                    "coeffPos": 8.0,
+                    "coeffScale": 0.25,
+                    "index": 1,
+                    "time": 0.20000000298023224
+                },
+                {
+                    "Type": 7,
+                    "distance": -0.70,
+                    "namePrefab": "Fragment_Explosion",
+                    "normal": [
+                        0.0,
+                        1.0,
+                        0.0
+                    ]
+                }
+            ]
+        }
+    ],
+    "Name": "Death_Plane"
+}
